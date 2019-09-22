@@ -1,0 +1,129 @@
+*{
+	font: 20px/1.5 Arial, Helvetica,sans-serif;
+	margin: 0;
+	padding: 0;
+}
+.container{
+    width:80%;
+    margin:auto;
+    overflow:hidden;
+
+  }
+  ul{
+    margin:0;
+    padding:0;
+  }
+  ul li{
+    float: left;
+    width: 120px;
+    height: 40px;
+    text-align: center;
+    opacity: 0.8;
+    line-height: 40px;
+    font-size: 20px;
+    z-index: 1;
+  }
+  ul li a
+  {
+
+  text-decoration: none;
+  color: white;
+  display: block;
+
+  }
+  header{
+    background:#35424a;
+    color:#ffffff;
+    padding-top:30px;
+    min-height:70px;
+    border-bottom:#e8491d 3px solid;
+  }
+  
+  header a{
+    color:#ffffff;
+    text-decoration:none;
+    text-transform: uppercase;
+    font-size:16px;
+  }
+  
+  header li{
+    display:inline;
+    padding: 0 20px 0 20px;
+  }
+  
+  header #branding{
+    float:left;
+  }
+  
+  header #branding h1{
+    margin:0;
+  }
+  
+  header nav{
+    float:right;
+    margin-top:10px;
+  }
+  header .highlight{
+    color:#e8491d;
+ font-size: 30px;
+	font-weight:bold;
+  }
+  
+  header .highlight, header .current a{
+    color:#e8491d;
+    font-weight:bold;
+  }
+  
+  header a:hover{
+    color:#cccccc;
+    font-weight:bold;
+  }
+  
+.blur{
+	background-image: url(k.jpg);
+	background-size: cover;
+	background-repeat:no-repeat; 
+	background-position: center;
+	height: 100vh;	
+	max-width: 100%;
+}
+
+.contact{
+	width: 100%;
+
+}
+.contact1{
+	width: 50%;
+	float: left;
+}
+.contact1 img{
+	width: 500px;
+	height: 500px;
+	border-radius: 15px;
+	margin-top: 3%;
+	margin-left: 3%;
+
+}
+.contact :hover{
+	color: lightgreen;
+
+
+}
+ 
+@media(max-width: 768px){
+    header #branding,
+    header nav,
+    header nav li,
+    #newsletter h1,
+    #newsletter form,
+    #boxes .box,
+    article#main-col,
+    aside#sidebar{
+      float:none;
+      text-align:center;
+      width:100%;
+    }
+    header{
+		padding-bottom:20px;
+	  }
+
